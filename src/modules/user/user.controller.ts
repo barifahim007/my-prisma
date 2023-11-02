@@ -1,4 +1,4 @@
-import { Request, Response, response } from "express";
+import { Request, Response } from "express";
 import { userService } from "./user.service";
 
 const insertIntoDb = async (req: Request, res: Response) => {
